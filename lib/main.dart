@@ -11,8 +11,7 @@ void main() => runApp(
           ),
           body: Center(
             child: Image(
-              image: NetworkImage(
-                  'https://image.shutterstock.com/image-photo/large-beautiful-drops-transparent-rain-260nw-668593321.jpg'),
+              image: AssetImage('images/test1.jpeg'),
             ),
           ),
         ),
